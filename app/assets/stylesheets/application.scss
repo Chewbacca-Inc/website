@@ -1,2 +1,17 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+/* Import css */
+/* Google font */
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+/* prettyPhoto */
+@import "prettyPhoto";
+/* flexslider */
+@import "flexslider";
+/* font awesome */
+@import "font-awesome";
+/* overwrite */
+@import "overwrite";
+/* animation */
+@import "animate";
+/* style */
+@import "style";
