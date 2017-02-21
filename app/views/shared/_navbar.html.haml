@@ -1,0 +1,26 @@
+.navbar-wrapper
+  .navbar.navbar-inverse.navbar-fixed-top
+    .navbar-inner
+      .container
+        / Responsive navbar
+        %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        %h1.brand
+          %a{:href => "index.html"} Maxim
+        / navigation
+        %nav.pull-right.nav-collapse.collapse
+          %ul#menu-main.nav
+            %li
+              %a{:href => "#about", :title => "team"} About
+            %li
+              %a{:href => "#services", :title => "services"} Services
+            %li
+              %a{:href => "#works", :title => "works"} Works
+            %li
+              %a{:href => "#blog", :title => "blog"} Blog
+            %li
+              %a{:href => "#contact", :title => "contact"} Contact
+            %li
+              %a{:href => "page.html"} Page

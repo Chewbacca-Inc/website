@@ -84,7 +84,7 @@ jQuery(document).ready(function($) {
 	
 	// cache container
 	var $container = $('#portfolio-wrap');
-	$.browser.safari = ($.browser.webkit && !(/chrome/.test(navigator.userAgent.toLowerCase())));	
+	//$.browser.safari = ($.browser.webkit && !(/chrome/.test(navigator.userAgent.toLowerCase())));	
 	
 	if($.browser.safari){ 	
 	// initialize isotope

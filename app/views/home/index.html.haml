@@ -1,0 +1,338 @@
+%section.spacer.green
+  .container
+    .row
+      .span6.alignright.flyLeft
+        %blockquote.large
+          There's huge space beetween creativity and imagination
+          %cite Mark Simmons, Nett Media
+      .span6.aligncenter.flyRight
+        %i.icon-coffee.icon-10x
+/ end spacer section
+/ section: team
+%section#about.section
+  .container
+    %h4 Who We Are
+    .row
+      .span4.offset1
+        %div
+          %h2
+            We live with
+            %strong creativity
+          %p
+            Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.
+      .span6
+        .aligncenter
+          = image_tag "icons/creativity.png"
+    .row
+      .span2.offset1.flyIn
+        .people
+          %img.team-thumb.img-circle{:alt => "", :src => asset_url("team/img-1.jpg") }/
+          %h3 John Doe
+          %p
+            Art director
+      .span2.flyIn
+        .people
+          %img.team-thumb.img-circle{:alt => "", :src => asset_url("team/img-2.jpg") }/
+          %h3 Mike Doe
+          %p
+            Web developer
+      .span2.flyIn
+        .people
+          %img.team-thumb.img-circle{:alt => "", :src => asset_url("team/img-3.jpg") }/
+          %h3 Neil Doe
+          %p
+            Web designer
+      .span2.flyIn
+        .people
+          %img.team-thumb.img-circle{:alt => "", :src => asset_url("team/img-4.jpg") }/
+          %h3 Mark Joe
+          %p
+            UI designer
+      .span2.flyIn
+        .people
+          %img.team-thumb.img-circle{:alt => "", :src => asset_url("team/img-5.jpg") }/
+          %h3 Stephen B
+          %p
+            Digital imaging
+  / /.container
+/ end section: team
+/ section: services
+%section#services.section.orange
+  .container
+    %h4 Services
+    / Four columns
+    .row
+      .span3.animated-fast.flyIn
+        .service-box
+          %img{:alt => "", :src => asset_url("icons/laptop.png")}/
+          %h2 Web design
+          %p
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      .span3.animated.flyIn
+        .service-box
+          %img{:alt => "", :src => asset_url("icons/lab.png") }/
+          %h2 Web development
+          %p
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      .span3.animated-fast.flyIn
+        .service-box
+          %img{:alt => "", :src => asset_url("icons/camera.png") }/
+          %h2 Photography
+          %p
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      .span3.animated-slow.flyIn
+        .service-box
+          %img{:alt => "", :src => asset_url("icons/basket.png") }/
+          %h2 Ecommerce
+          %p
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+/ end section: services
+/ section: works
+%section#works.section
+  .container.clearfix
+    %h4 Our Works
+    / portfolio filter
+    .row
+      #filters.span12
+        %ul.clearfix
+          %li
+            %a.active{"data-filter" => "*", :href => "#"}
+              %h5 All
+          %li
+            %a{"data-filter" => ".web", :href => "#"}
+              %h5 Web
+          %li
+            %a{"data-filter" => ".print", :href => "#"}
+              %h5 Print
+          %li
+            %a{"data-filter" => ".design", :href => "#"}
+              %h5 Design
+          %li
+            %a{"data-filter" => ".photography", :href => "#"}
+              %h5 Photography
+      / END PORTFOLIO FILTERING
+    .row
+      .span12
+        #portfolio-wrap
+          / portfolio item
+          .portfolio-item.grid.print.photography
+            .portfolio
+              %a.portfolio-image{"data-pretty" => "prettyPhoto[gallery1]", :href => "img/works/big.jpg"}
+                %img{:alt => "", :src => asset_url("works/1.png") }/
+                .portfolio-overlay
+                  .thumb-info
+                    %h5 Portfolio name
+                    %i.icon-plus.icon-2x
+          / end portfolio item
+          / portfolio item
+          .portfolio-item.grid.print.design.web
+            .portfolio
+              %a.portfolio-image{"data-pretty" => "prettyPhoto[gallery1]", :href => "img/works/big.jpg"}
+                %img{:alt => "", :src => asset_url("works/2.png") }/
+                .portfolio-overlay
+                  .thumb-info
+                    %h5 Portfolio name
+                    %i.icon-plus.icon-2x
+          / end portfolio item
+          / portfolio item
+          .portfolio-item.grid.print.design
+            .portfolio
+              %a.portfolio-image{"data-pretty" => "prettyPhoto[gallery1]", :href => "img/works/big.jpg"}
+                %img{:alt => "", :src => asset_url("works/3.png") }/
+                .portfolio-overlay
+                  .thumb-info
+                    %h5 Portfolio name
+                    %i.icon-plus.icon-2x
+          / end portfolio item
+          / portfolio item
+          .portfolio-item.grid.photography.web
+            .portfolio
+              %a.portfolio-image{"data-pretty" => "prettyPhoto[gallery1]", :href => "img/works/big.jpg"}
+                %img{:alt => "", :src => asset_url("works/4.png") }/
+                .portfolio-overlay
+                  .thumb-info
+                    %h5 Portfolio name
+                    %i.icon-plus.icon-2x
+          / end portfolio item
+          / portfolio item
+          .portfolio-item.grid.photography.web
+            .portfolio
+              %a.portfolio-image{"data-pretty" => "prettyPhoto[gallery1]", :href => "img/works/big.jpg"}
+                %img{:alt => "", :src => asset_url("works/5.png") }/
+                .portfolio-overlay
+                  .thumb-info
+                    %h5 Portfolio name
+                    %i.icon-plus.icon-2x
+          / end portfolio item
+          / portfolio item
+          .portfolio-item.grid.photography.web
+            .portfolio
+              %a.portfolio-image{"data-pretty" => "prettyPhoto[gallery1]", :href => "img/works/big.jpg"}
+                %img{:alt => "", :src => asset_url("works/6.png") }/
+                .portfolio-overlay
+                  .thumb-info
+                    %h5 Portfolio name
+                    %i.icon-plus.icon-2x
+          / end portfolio item
+          / portfolio item
+          .portfolio-item.grid.photography.web
+            .portfolio
+              %a.portfolio-image{"data-pretty" => "prettyPhoto[gallery1]", :href => "img/works/big.jpg"}
+                %img{:alt => "", :src => asset_url("works/7.png") }/
+                .portfolio-overlay
+                  .thumb-info
+                    %h5 Portfolio name
+                    %i.icon-plus.icon-2x
+          / end portfolio item
+          / portfolio item
+          .portfolio-item.grid.photography
+            .portfolio
+              %a.portfolio-image{"data-pretty" => "prettyPhoto[gallery1]", :href => "img/works/big.jpg"}
+                %img{:alt => "", :src => asset_url("works/8.png") }/
+                .portfolio-overlay
+                  .thumb-info
+                    %h5 Portfolio name
+                    %i.icon-plus.icon-2x
+          / end portfolio item
+          / portfolio item
+          .portfolio-item.grid.photography.web
+            .portfolio
+              %a.portfolio-image{"data-pretty" => "prettyPhoto[gallery1]", :href => "img/works/big.jpg"}
+                %img{:alt => "", :src => asset_url("works/9.png") }/
+                .portfolio-overlay
+                  .thumb-info
+                    %h5 Portfolio name
+                    %i.icon-plus.icon-2x
+          / end portfolio item
+          / portfolio item
+          .portfolio-item.grid.design.web
+            .portfolio
+              %a.portfolio-image{"data-pretty" => "prettyPhoto[gallery1]", :href => "img/works/big.jpg"}
+                %img{:alt => "", :src => asset_url("works/10.png") }/
+                .portfolio-overlay
+                  .thumb-info
+                    %h5 Portfolio name
+                    %i.icon-plus.icon-2x
+          / end portfolio item
+/ spacer section
+%section.spacer.bg3
+  .container
+    .row
+      .span12.aligncenter.flyLeft
+        %blockquote.large
+          We are an established and trusted web agency with a reputation for commitment and high integrity
+      .span12.aligncenter.flyRight
+        %i.icon-rocket.icon-10x
+/ end spacer section
+/ section: blog
+%section#blog.section
+  .container
+    %h4 Our Blog
+    / Three columns
+    .row
+      .span3
+        .home-post
+          .post-image
+            %img.max-img{:alt => "", :src => asset_url("blog/img1.jpg") }/
+          .post-meta
+            %i.icon-file.icon-2x
+            %span.date June 19, 2013
+            %span.tags
+              %a{:href => "#"}> Design
+              ,
+              %a{:href => "#"} Blog
+          .entry-content
+            %h5
+              %strong
+                %a{:href => "#"} New design trends
+            %p
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. …
+            %a.more{:href => "#"} Read more
+      .span3
+        .home-post
+          .post-image
+            %img.max-img{:alt => "", :src => asset_url("blog/img2.jpg") }/
+          .post-meta
+            %i.icon-file.icon-2x
+            %span.date June 19, 2013
+            %span.tags
+              %a{:href => "#"}> Design
+              ,
+              %a{:href => "#"} News
+          .entry-content
+            %h5
+              %strong
+                %a{:href => "#"} Retro is great
+            %p
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. …
+            %a.more{:href => "#"} Read more
+      .span3
+        .home-post
+          .post-image
+            %img.max-img{:alt => "", :src => asset_url("blog/img3.jpg") }/
+          .post-meta
+            %i.icon-file.icon-2x
+            %span.date June 22, 2013
+            %span.tags
+              %a{:href => "#"}> Design
+              ,
+              %a{:href => "#"} Tips
+          .entry-content
+            %h5
+              %strong
+                %a{:href => "#"} Isometric mockup
+            %p
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. …
+            %a.more{:href => "#"} Read more
+      .span3
+        .home-post
+          .post-image
+            %img.max-img{:alt => "", :src => asset_url("blog/img4.jpg") }/
+          .post-meta
+            %i.icon-file.icon-2x
+            %span.date June 27, 2013
+            %span.tags
+              %a{:href => "#"}> News
+              ,
+              %a{:href => "#"} Tutorial
+          .entry-content
+            %h5
+              %strong
+                %a{:href => "#"} Free icon set
+            %p
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. …
+            %a.more{:href => "#"} Read more
+    .blankdivider30
+    .aligncenter
+      %a.btn.btn-large.btn-theme{:href => "#"} More blog post
+/ end spacer section
+/ section: contact
+%section#contact.section.green
+  .container
+    %h4 Get in Touch
+    %p
+      Reque facer nostro et ius, cu persius mnesarchum disputando eam, clita prompta et mel vidisse phaedrum pri et. Facilisis posidonium ex his. Mutat iudico vis in, mea aeque tamquam scripserit an, mea eu ignota viderer probatus. Lorem legere consetetur ei eum. Sumo aeque assentior te eam, pri nominati posidonium consttuam
+    .blankdivider30
+    .row
+      .span12
+        #contact-form.cform
+          #sendmessage Your message has been sent. Thank you!
+          #errormessage
+          %form.contactForm{:action => "", :method => "post", :role => "form"}
+            .row
+              .span6
+                .field.your-name.form-group
+                  %input#name.form-control{"data-msg" => "Please enter at least 4 chars", "data-rule" => "minlen:4", :name => "name", :placeholder => "Your Name", :type => "text"}/
+                  .validation
+                .field.your-email.form-group
+                  %input#email.form-control{"data-msg" => "Please enter a valid email", "data-rule" => "email", :name => "email", :placeholder => "Your Email", :type => "text"}/
+                  .validation
+                .field.subject.form-group
+                  %input#subject.form-control{"data-msg" => "Please enter at least 8 chars of subject", "data-rule" => "minlen:4", :name => "subject", :placeholder => "Subject", :type => "text"}/
+                  .validation
+              .span6
+                .field.message.form-group
+                  %textarea.form-control{"data-msg" => "Please write something for us", "data-rule" => "required", :name => "message", :placeholder => "Message", :rows => "5"}
+                  .validation
+                %input.btn.btn-theme.pull-left{:type => "submit", :value => "Send message"}/
+      / ./span12
