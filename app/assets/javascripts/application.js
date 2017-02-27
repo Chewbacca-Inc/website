@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require vendor/jquery-migrate-1.4.1
 //= require vendor/jquery.scrollTo
 //= require vendor/jquery.nav
 //= require vendor/jquery.localscroll-1.2.7-min
