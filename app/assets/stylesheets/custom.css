@@ -1,0 +1,22 @@
+#main-flexslider ul.slides li p {
+	color:#022648;
+}
+.flex-direction-nav li a {
+	color:#0b333f;
+}
+.flex-direction-nav li a:hover {
+	color:#0b333f;
+}
+.spacer.green {
+    background: #9ad1b4;
+}
+.section.green {
+    background: #022648;
+    background-image: url(footer-map.png);
+}
+.section.orange {
+    background: #f5907c;
+}
+section#services.section.orange .service-box:hover {
+	background:#f5907c;
+}
