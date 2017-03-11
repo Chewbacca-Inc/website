@@ -1,21 +1,28 @@
-#header-wrapper.header-slider
-  %header.clearfix
-    .logo
-      = image_tag "logo-image.png", class: "rollIn"
-    .container
-      .row
-        .span12
-          #main-flexslider.flexslider
-            %ul.slides
-              %li
-                %p.home-slide-content
-                  %strong creative
-                  and passion
-              %li
-                %p.home-slide-content
-                  Eat and drink
-                  %strong design
-              %li
-                %p.home-slide-content
-                  We loves
-                  %strong simplicity
+-##header-wrapper.header-slider
+  -#%header.clearfix
+    -#.logo
+      -#= image_tag "logo-image.png", class: "rollIn"
+    -#.container
+      -#.row
+        -#.span12
+          -##main-flexslider.flexslider
+            -#%ul.slides
+              -#%li
+                -#%p.home-slide-content
+                  -#%strong creative
+                  -#and passion
+              -#%li
+                -#%p.home-slide-content
+                  -#Eat and drink
+                  -#%strong design
+              -#%li
+                -#%p.home-slide-content
+                  -#We loves
+                  -#%strong simplicity
+
+.header-video
+  %video#bgvid{:autoplay => "", :loop => "", :muted => "", :playsinline => "", :poster => asset_url('lego-screenshot.jpg') }
+    %source{:src => asset_url('lego.mp4'), :type => "video/mp4"}
+
+  .container.content
+    %p Some text sample

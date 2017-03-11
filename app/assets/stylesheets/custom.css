@@ -20,3 +20,69 @@
 section#services.section.orange .service-box:hover {
 	background:#f5907c;
 }
+
+.services-icon {
+  background-image: url('services-icons.png');
+  width: 85px;
+  height: 85px;
+  margin: auto;
+}
+.services-icon.seo {
+  background-position: 0 0;
+}
+.services-icon.e-commerce {
+  background-position: -86px 0;
+}
+.services-icon.seo2 {
+  background-position: -172px 0;
+}
+.services-icon.startup {
+  background-position: -258px 0;
+}
+.services-icon.responsive {
+  background-position: 0 -86px;
+}
+.services-icon.mobile {
+  background-position: -86px -86px;
+}
+.services-icon.web-design {
+  background-position: -172px -86px;
+}
+.services-icon.video {
+  background-position: -258px -86px;
+}
+.services-icon.photography {
+  background-position: 0 -172px;
+}
+.services-icon.web-dev {
+  background-position: -86px -172px;
+}
+.services-icon.e-commerce {
+  background-position: -172px -172px;
+}
+.services-icon.startup2 {
+  background-position: -258px -172px;
+}
+.services-icon.video-editing {
+  background-position: 0 -258px;
+}
+.services-icon.blogging {
+  background-position: -86px -258px;
+}
+.header-video {
+  height: 100vh;
+}
+video {
+  position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	/*transform: translateX(-50%) translateY(-50%);*/
+	background-size: cover;
+	transition: 1s opacity;
+}
+.header-video .content{
+  padding-top: 100px;
+}

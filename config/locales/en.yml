@@ -21,3 +21,14 @@
 
 en:
   hello: "Hello world"
+  services:
+    headings:
+      web_dev: 'Web Development'
+      web_design: 'Web Design'
+      mobile: 'Mobile Web Design'
+      e_commerce: 'E-commerce website'
+    text:
+      web_dev: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+      web_design: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+      mobile: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+      e_commerce: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'

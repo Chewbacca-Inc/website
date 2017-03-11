@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
 	// add animation on hover
 		$(".service-box").hover(
 			function () {
-			$(this).find('img').addClass("animated pulse");
+			$(this).find('.services-icon').addClass("animated pulse");
 			$(this).find('h2').addClass("animated fadeInUp");
 			},
 			function () {
