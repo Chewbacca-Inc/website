@@ -116,11 +116,11 @@ video {
 }
 
 .fill1 {
-  background: #444 asset_url("bg/bg-1.jpeg") no-repeat center center fixed;
+  background: #444 asset_url("bg/bg-1.jpg") no-repeat center center fixed;
 }
 .fill2 {
-  background: #444 asset_url("bg/bg-2.jpeg") no-repeat center center fixed;
+  background: #444 asset_url("bg/bg-2.jpg") no-repeat center center fixed;
 }
 .fill3 {
-  background: #444 asset_url("bg/bg-3.jpeg") no-repeat center center fixed;
+  background: #444 asset_url("bg/bg-3.jpg") no-repeat center center fixed;
 }
