@@ -1,3 +1,31 @@
+.navbar .brand a:hover {
+ transition: none;
+ -webkit-transition: none;
+ -moz-transition: none;
+}
+.navbar .brand a:focus {
+  outline: none;
+}
+.navbar-inner {
+  min-height: 4.75em;
+}
+.navbar-inverse .navbar-inner {
+  background: none;
+  transition-duration: 1s;
+  border-bottom: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+ul#menu-main > li > a {
+  text-transform: none;
+}
+
+ul#menu-main > li > a:hover {
+  color: #0b333f;
+}
+
 #main-flexslider ul.slides li p {
 	color:#022648;
 }
@@ -85,4 +113,14 @@ video {
 }
 .header-video .content{
   padding-top: 100px;
+}
+
+.fill1 {
+  background: #444 asset_url("bg/bg-1.jpeg") no-repeat center center fixed;
+}
+.fill2 {
+  background: #444 asset_url("bg/bg-2.jpeg") no-repeat center center fixed;
+}
+.fill3 {
+  background: #444 asset_url("bg/bg-3.jpeg") no-repeat center center fixed;
 }

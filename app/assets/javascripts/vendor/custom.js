@@ -134,6 +134,26 @@ jQuery(document).ready(function($) {
 		useCSS: false
 	});
 });
-	
-	
+
+// navbar change color	
+
+
+$(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('#mid');
+   var offset = startchange.offset();
+    if (startchange.length){
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $(".navbar-inner").css('background-color', '#FFFFFF');
+          $("ul#menu-main > li > a ").css('color', '#555555');
+       }
+       else {
+       	  $(".navbar-inner").css('background-color', 'transparent');
+       	  $("ul#menu-main > li > a ").css('color', '#ffffff');
+       }
+   });
+    }
+});	
 
